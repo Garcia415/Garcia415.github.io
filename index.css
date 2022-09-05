@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(codingphoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+ul li {
+    margin-right: 25px;
+    list-style: none;
+    cursor: pointer;
+}
+ul li a:hover{
+    color: #FFE135;
+    transition: .50s;
+}
+section{
+    position: absolute;
+    top: 30%;
+}
+.sec-h1{
+    font-size: 4rem;
+    color: #FFE135;
+}
+.sec-h2{
+
+}
