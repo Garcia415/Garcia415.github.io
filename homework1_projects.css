@@ -6,22 +6,22 @@
 body{
     background-color: #353839;
 }
-a{
+.nav-link{
     color: #fff;
     text-decoration: none;
 }
-ul{
+.nav-ul{
     display: flex;
     float: right;
     margin-top: 15px;
     margin-right: 20px;
 }
-ul li {
+.nav-ul .nav-list {
     margin-right: 25px;
     list-style: none;
     cursor: pointer;
 }
-ul li a:hover{
+.nav-ul .nav-list .nav-link:hover{
     color: #FFE135;
     transition: .50s;
 }
@@ -29,4 +29,26 @@ iframe{
     position: absolute;
     top: 25%;
     left: 30%;
+}
+.project-h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #FFE135;
+}
+/*Projects container*/
+.grid-projects{
+    display: flex;
+    justify-content: center;
+}
+.homework3{
+    list-style: none;
+}
+.link3{
+    text-decoration: none;
+    color: #fff;
+}
+.homework3 .link3-li .link3:hover{
+    color: #FFE135;
+    transition: .50s;
 }
