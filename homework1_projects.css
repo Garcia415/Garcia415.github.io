@@ -39,16 +39,32 @@ iframe{
 /*Projects container*/
 .grid-projects{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+.projects{
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
 }
 .homework3{
     list-style: none;
+}
+.homework4{
+    list-style: none;
+}
+.link4{
+    text-decoration: none;
+    color: #fff;
 }
 .link3{
     text-decoration: none;
     color: #fff;
 }
 .homework3 .link3-li .link3:hover{
+    color: #FFE135;
+    transition: .50s;
+}
+.homework4 .link4-li .link4:hover{
     color: #FFE135;
     transition: .50s;
 }
